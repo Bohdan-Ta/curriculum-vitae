@@ -2,20 +2,20 @@
   "name": "curriculum-vitae",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Bohdan-Ta/Curriculum-vitae#readme",
+  "homepage": "https://github.com/Bohdan-Ta/curriculum-vitae#readme",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /Curriculum-vitae --no-content-hash",
+    "build": "parcel build index.html --public-url /curriculum-vitae",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bohdan-Ta/Curriculum-vitae.git"
+    "url": "git+https://github.com/Bohdan-Ta/curriculum-vitae.git"
   },
   "author": "Bohdan-Ta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bohdan-Ta/Curriculum-vitae/issues"
+    "url": "https://github.com/Bohdan-Ta/curriculum-vitae/issues"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.2.1",
