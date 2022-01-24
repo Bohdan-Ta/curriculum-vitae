@@ -1,0 +1,32 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Bohdan-Ta/Curriculum-vitae#readme",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /curriculum-vitae/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bohdan-Ta/Curriculum-vitae.git"
+  },
+  "author": "Bohdan-Ta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bohdan-Ta/Curriculum-vitae/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2"
+  },
+  "dependencies": {
+    "gh-deploy": "^0.2.3",
+    "sass": "^1.43.2",
+    "gh-pages": "^3.2.3"
+  }
+}
