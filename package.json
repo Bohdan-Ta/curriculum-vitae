@@ -5,7 +5,7 @@
   "homepage": "https://github.com/Bohdan-Ta/Curriculum-vitae#readme",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url /Curriculum-vitae --no-content-hash",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
