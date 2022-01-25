@@ -326,7 +326,7 @@ body {
   margin-left: auto;
 }
 .card:nth-child(even):before {
-  content: "";
+  content: '';
   position: absolute;
   left: -15%;
   top: 50%;
@@ -337,7 +337,7 @@ body {
   border-radius: 50%;
 }
 .card:nth-child(even):after {
-  content: "";
+  content: '';
   position: absolute;
   left: -8.5%;
   top: 50%;
@@ -348,7 +348,7 @@ body {
   z-index: -1;
 }
 .card:nth-child(odd):before {
-  content: "";
+  content: '';
   position: absolute;
   right: -13%;
   top: 50%;
@@ -359,7 +359,7 @@ body {
   border-radius: 50%;
 }
 .card:nth-child(odd):after {
-  content: "";
+  content: '';
   position: absolute;
   right: -8.5%;
   top: 50%;
@@ -390,7 +390,7 @@ body {
   background: #4fa0ff;
 }
 .card:nth-child(even) .card-body:before {
-  content: "";
+  content: '';
   position: absolute;
   left: -12%;
   top: 0;
