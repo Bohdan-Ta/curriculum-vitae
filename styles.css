@@ -306,9 +306,10 @@ body {
 /* timeline */
 .timeline {
   display: block;
-  width: 80%;
+  width: 90%;
   margin: 150px auto;
 }
+
 .timeline .heading {
   margin-bottom: 150px;
 }

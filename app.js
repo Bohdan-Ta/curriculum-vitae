@@ -10,7 +10,7 @@ links.forEach((link, i) => {
       setTimeout(() => {
         activeLink = i;
         sections[i].classList.add('active');
-      }, 2000);
+      }, 1000);
     }
   });
 });
